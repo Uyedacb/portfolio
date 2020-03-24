@@ -23,6 +23,48 @@
   color: #61dafb;
 }
 
+/* LANDING PAGE BANNER CSS */
+.banner-group {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(254,246,221);
+  background: radial-gradient(circle, rgba(254,246,221,1) 0%, rgba(254,246,221,1) 82%, rgba(255,243,205,1) 99%);
+}
+
+.banner {
+  padding: 10rem 2rem 5rem;
+}
+
+.banner img {
+  width: 6rem;
+  margin: 1rem;
+}
+
+.banner h1, .banner h2 {
+  font-size: 1rem;
+  margin: 0.3rem;
+}
+
+.banner a {
+  padding: 0.2rem;
+  font-size: 0.95rem;
+}
+
+.about-me {
+  background-color: white;
+  padding: 5rem;
+  width: 100%
+}
+
+/*NAVBAR CSS*/
+
+.navbar {
+  display: flex;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

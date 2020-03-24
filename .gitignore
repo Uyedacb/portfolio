@@ -10,6 +10,7 @@
 
 # production
 /build
+/illustrator
 
 # misc
 .DS_Store
