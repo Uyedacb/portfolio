@@ -1,3 +1,8 @@
+body {
+  margin: 0 auto;
+  background-color: rgba(76,185,194,1);
+}
+
 .App {
   text-align: center;
 }
@@ -29,17 +34,30 @@ a:visited {color: black;}
   color: #61dafb;
 }
 
+.project-section {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(76,185,194,1) 100%);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
 /* LANDING PAGE BANNER CSS */
 .banner-group {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
+  background-image: linear-gradient(transparent, white 75%),  url("./img/banner-2.jpeg");
+  background-size: cover;
+  min-height: 50rem;
 }
 
 .banner {
-  padding: 10rem 2rem 5rem;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 25rem 2rem 5rem;
 }
 
 .banner img {
@@ -71,39 +89,156 @@ a:visited {color: black;}
 /*NAVBAR CSS*/
 
 .navbar {
-  display: block;
-  padding: 2rem;
+  position: absolute;
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+}
+
+.navbar-background {
+  background-color: rgba(255,255,255,1);
+  height: 6rem;
+  margin: 10rem;
 }
 
 #nav-img {
-  float: left;
+  justify-content: flex-start;
+  flex: 4 1 auto;
+  display: flex;
 }
 
 #nav-img img {
   width: 4rem;
+  margin: 0 1rem;
 }
 
 #nav-img a {
   margin: 0;
   padding: 1rem;
+  
 }
 
 .nav-links {
   list-style-type: none;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  flex-grow:1;
+  box-sizing: border-box;
 }
 
 .nav-links li {
-  float: right;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-links li a {
+  justify-content: flex-end;
+  flex: auto;
   display: block;
   text-align: center;
   padding: 1rem;
   margin: 0.5rem 1rem;
+  position: absolute;
+}
+
+/* PROJECTS CSS */
+
+.projectprev-box {
+  display: flex;
+  text-align: center;
+  margin: 5rem 0;
+  border-radius: 1.2rem;
+  -webkit-box-shadow: -1px 10px 15px 5px rgba(0,0,0,0.32); 
+  box-shadow: -1px 10px 15px 5px rgba(0,0,0,0.32);
+  background-color: white;
+}
+
+.projectprev-box-text {
+  flex: 2 1 auto;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0rem;
+}
+
+.projectprev-box-text h3 {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 1.9rem;
+}
+
+.projectprev-box-text p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+}
+
+.projectprev-img {
+  flex: 0.14 0 auto;
+  overflow: hidden;
+}
+
+.projectprev-img img {
+  
+}
+
+.projects-group {
+  padding: 10rem 0;
+  margin: 0 17rem;
+}
+
+/* SMALL PROJECTS CSS */
+
+#small-proj-header {
+  text-align: center;
+  padding: 0 0 10rem 0;
+}
+
+#small-proj-header h2 {
+  font-size: 4rem;
+}
+
+.small-projects-group {
+  margin: 0 auto;
+  padding: 0 5rem;
+  text-align: center;
+  display: grid;
+  grid-gap: 1rem 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+}
+
+.small-project-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 0.7rem;
+  -webkit-box-shadow: -1px 10px 15px 5px rgba(0,0,0,0.32); 
+  box-shadow: -1px 10px 15px 5px rgba(0,0,0,0.32);
+  padding: 4rem 0;
+  margin: 1rem;
+  background-color: white;
+}
+
+.small-project-items {
+  flex: 1 1 auto;
+}
+
+.small-project-box h3 {
+  font-size: 1.5rem;
+}
+
+.small-project-box p {
+  font-size: 1.1rem;
 }
 
 @keyframes App-logo-spin {
@@ -114,3 +249,4 @@ a:visited {color: black;}
     transform: rotate(360deg);
   }
 }
+

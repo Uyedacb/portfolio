@@ -9,8 +9,7 @@ body {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(254,246,221);
-  background: radial-gradient(circle, rgba(254,246,221,1) 0%, rgba(254,246,221,1) 82%, rgba(255,243,205,1) 99%);
+  background: white;
 }
 
 code {

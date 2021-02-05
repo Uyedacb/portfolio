@@ -1,12 +1,13 @@
 import React, {useEffect, useState} from 'react';
-import computer from './img/pc-tran.png';
+import computer from '../img/pc-tran.png';
 import {Button} from '@material-ui/core';
-import resume from './assets/resume-uyeda.pdf';
+import resume from '../assets/resume-uyeda.pdf';
 import {Container} from '@material-ui/core';
 
 export default function Navbar(props) {
   return (
-      <Container variant="nav" className="navbar">
+    <div className="navbar-background">
+      <div variant="nav" className="navbar">
         <ul className="nav-links">
           <li id="nav-img">
             <a>
@@ -24,6 +25,7 @@ export default function Navbar(props) {
             </a>
           </li>
         </ul>
-      </Container>
+      </div>
+    </div>
   )
 }
