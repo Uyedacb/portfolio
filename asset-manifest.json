@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.12b3e7c2.chunk.css",
+    "main.js": "/portfolio/static/js/main.dc9a6f76.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.dc9a6f76.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.02bfe8a0.chunk.js": "/portfolio/static/js/2.02bfe8a0.chunk.js",
+    "static/js/2.02bfe8a0.chunk.js.map": "/portfolio/static/js/2.02bfe8a0.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.a2ba5c3cc9b8bbdd5084b4d870648292.js": "/portfolio/precache-manifest.a2ba5c3cc9b8bbdd5084b4d870648292.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.12b3e7c2.chunk.css.map": "/portfolio/static/css/main.12b3e7c2.chunk.css.map",
+    "static/js/2.02bfe8a0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.02bfe8a0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/banner.273ea791.jpeg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.0f1f9131.svg",
+    "static/media/resume-uyeda.pdf": "/portfolio/static/media/resume-uyeda.74b5ce07.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.02bfe8a0.chunk.js",
+    "static/css/main.12b3e7c2.chunk.css",
+    "static/js/main.dc9a6f76.chunk.js"
+  ]
+}
