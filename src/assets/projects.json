@@ -1,0 +1,21 @@
+
+ [
+    {
+      "title": "Likewise",
+      "description": "My capstone project. A web application that groups students together by their University and interests.",
+      "tech": "React.js",
+      "img": "thicc-lil-dubs.png"
+    },
+    {
+      "title": "Bonito",
+      "description": "A crowd-sourced service that helps user find and buy obscure ingredients in Seattle area.",
+      "tech": "React.js, Firebase",
+      "img": "bonito-logo.png"
+    },
+    {
+      "title": "Stockify",
+      "description": "A mock broker platform with real-time stock data.",
+      "tech": "Django, Docker, Azure",
+      "img": "stockify.JPG"
+    }
+  ]

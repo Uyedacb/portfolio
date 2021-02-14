@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Likewise",
+    "description": "My capstone project. A web application that groups students together by their University and interests.",
+    "tech": "React.js, Firestore",
+    "img": "thicc-lil-dubs.png",
+    "date": "2020",
+    "github": "https://github.com/chandelier05/likewise"
+  },
+  {
+    "title": "Bonito",
+    "description": "A crowd-sourced service that helps user find and buy obscure ingredients in Seattle area.",
+    "tech": "React.js, Firestore",
+    "img": "bonito-logo.png",
+    "date": "2019",
+    "github": "https://github.com/Boneato/bonito/tree/gh-pages"
+  },
+  {
+    "title": "Stockify",
+    "description": "A mock broker platform with real-time stock data.",
+    "tech": "Django, Docker, Azure",
+    "img": "stockify.JPG",
+    "date": "2019",
+    "github": "https://github.com/Uyedacb/Stockify"
+  },
+  {
+    "title" : "Newegg Bot",
+    "description": "A bot that Autonomously buy GPUs from Newegg as soon as they are available. It was built to beat the scalpers.",
+    "tech": "Node.js",
+    "date": "2020",
+    "github": "https://github.com/Uyedacb/NeweggBot"
+  },
+  {
+    "title" : "Piaro",
+    "description": "An android application that connects Pen Pals internationally. Automatically translates messages to the person's language. Coded for Dubhacks.",
+    "tech": "Android, Google Cloud Platform",
+    "date": "2018",
+    "github": ""
+  },
+  {
+    "title" : "Portfolio",
+    "description": "This website.",
+    "tech": "React.js, CSS",
+    "date": "2020",
+    "github": "https://github.com/Uyedacb/portfolio"
+  },
+  {
+    "title" : "SaveTime",
+    "description": "An Alexa time management skill that keeps track of your activity.",
+    "tech": "Alexa, AWS",
+    "date": "2018",
+    "github": "https://github.com/Uyedacb/SaveTime"
+  },
+  {
+    "title": " Depression Data Analysis",
+    "description": "A data analysis on the National Survey on Drug Use and Health in 2015.",
+    "tech": "R",
+    "date": "2018",
+    "github": "https://github.com/Uyedacb/Info201_Final"
+  }
+]
