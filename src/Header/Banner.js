@@ -11,14 +11,14 @@ export default function Banner(props) {
             <h2>Software Engineer</h2>
           </div>
           <div className="banner-links">
-            <a target="_blank" href="https://www.linkedin.com/in/uyedacb/">
-              <img src={LinkedIn}></img>
+            <a target="_blank" href="https://www.linkedin.com/in/uyedacb/" rel="noopener noreferrer"> 
+              <img src={LinkedIn} alt="a link to my linkedin page"></img>
             </a>
-            <a target="_blank" href="https://github.com/Uyedacb">
-              <img src={require('../assets/icons/GitHub-Mark-32px.png')}></img>
+            <a target="_blank" href="https://github.com/Uyedacb" rel="noopener noreferrer">
+              <img src={require('../assets/icons/GitHub-Mark-32px.png')} alt="a link to my github page"></img>
             </a>
-            <a target="blank" href={Resume}>
-              <img src={ResumeIcon}></img>
+            <a target="blank" href={Resume}  rel="noopener noreferrer">
+              <img src={ResumeIcon} alt="a link to a pdf of my resume"></img>
             </a>
           </div>
       </div>
